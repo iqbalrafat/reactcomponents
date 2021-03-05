@@ -1,10 +1,11 @@
 import React from 'react';
 import faker from 'faker';
+import './CommentDetail.css';
 const CommentDetail=()=>{
   return (
     <div className="comment">
         <a href="/" className="avatar">
-          <image alt="avatar" src={faker.image.people()}/>
+          <img alt="avatar" src={faker.image.people()}/>
         </a>
       <div className="content">
           <a href="/" className="author">Sam</a>
