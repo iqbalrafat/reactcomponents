@@ -4,11 +4,13 @@ import faker from 'faker';
 import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
 import Header from './Header';
+import './CommentDetail.css';
 
 const App=()=>{
   return(
   <div className="ui container comments">
-    <Header />
+    <Header heading="Card Details"
+      source1={faker.image.people()}>    
     <ApprovalCard>
       <CommentDetail
         author='Sam'
@@ -33,6 +35,9 @@ const App=()=>{
           source={faker.image.animals()}
         />    
       </ApprovalCard>     
+      
+    </Header>
+    
   </div>
   );
 };

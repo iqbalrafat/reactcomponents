@@ -6,3 +6,17 @@ img{
 .content{
   margin-left:10px;
 }
+.header{
+  border:solid;
+  background-color:antiquewhite;
+  padding-left:50px;
+  padding-bottom:50px;
+}
+.logo{  
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.image{
+  height: 40px;
+}
+
