@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import faker from 'faker';
 import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
+import Header from './Header';
 
 const App=()=>{
   return(
   <div className="ui container comments">
+    <Header />
     <ApprovalCard>
       <CommentDetail
         author='Sam'
