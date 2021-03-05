@@ -1,8 +1,10 @@
 import React from 'react';
 import faker from 'faker';
 import './CommentDetail.css';
+import ApprovalCard from './ApprovalCard';
 const CommentDetail=(props)=>{
   return (
+    
     <div className="comment">
         <a href="/" className="avatar">
           <img alt="avatar" src={props.source}/>
@@ -13,7 +15,7 @@ const CommentDetail=(props)=>{
             <span className="data">{props.ToAgo}</span>
         </div>
         <div className="text">{props.text}</div>
-      </div> 
+      </div>      
     </div>
   );
 };
